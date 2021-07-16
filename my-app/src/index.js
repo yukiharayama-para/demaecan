@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import ButtonAppBar from "./App";
+import ButtonAppBar from "./AppBar";
 
 ReactDOM.render(
   <React.StrictMode>
