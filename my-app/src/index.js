@@ -4,11 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ButtonAppBar from "./AppBar";
 import SimpleContainer from "./SearchAdress";
+import Genre from "./Genre";
 
 ReactDOM.render(
   <React.StrictMode>
     <ButtonAppBar />
       <SimpleContainer/>
+      <Genre/>
   </React.StrictMode>,
   document.getElementById('root')
 );
