@@ -14,25 +14,26 @@ import logo from './demaecan_logo.png';
       flexGrow: 1,
     },
     menuButton: {
-      marginRight: theme.spacing(2),
+      marginRight: theme.spacing(1),
     },
     logoWrapper: {
       flexGrow: 1,
-
     },
     logo: {
       width: 30,
       height: "auto",
     },
     register:{
-      marginRight:10,
+      marginRight: theme.spacing(1),
       color:"default",
     },
     login: {
       backgroundColor:"#e83434",
       color:"white",
+      variant:"contained",
+      fontWeight:"bold",
       '&:hover': {
-        color:"black",
+        backgroundColor:"#BA2828",
       },
     }
   }));

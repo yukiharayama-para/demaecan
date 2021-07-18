@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ButtonAppBar from "./AppBar";
+import SimpleContainer from "./SearchAdress";
 
 ReactDOM.render(
   <React.StrictMode>
     <ButtonAppBar />
+      <SimpleContainer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
